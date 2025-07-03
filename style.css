@@ -1,0 +1,14 @@
+html,body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+canvas { /* remove scrollbars */
+  display: block;
+} 
+
+canvas:focus { /* remove blue outline around canvas */
+  outline: 0;
+} 
+
